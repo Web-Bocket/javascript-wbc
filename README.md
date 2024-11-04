@@ -80,5 +80,55 @@ let hari = {
 
 - in the above example left side element are the keys & right side elements are the values of that key. 
 
+3. Function :- 
+
+- in function, we repeatedlly do the task in a function.
+- function reduce our code complexity and time & space complexity.
+- syntax :- 
+
+function -> 
+
+function my_schedule(){
+    console.log("we wake up at 6 am");
+    console.log("we go for a morning walk")
+}
+
+function calling -> 
+
+my_schedule();
+
+Operator in JS :- 
+
+- operator are the key features to do some task or operate some task.
+- ex. A + B
+- in the above example A & B are the operands, "+" is our operator. 
+- in javascript, there are 5 types of operator re there.. 
+
+1. Arithmetic operator -> (+,-,*,/), %(modulus), ** (exponent)
+2. Assignment Operator -> (=,+=,-+,*=,/=,%=,**=)
+3. compairision operator -> (==, !==, ===)
+4. Logical operator -> Logical AND (&&), Logical OR (||), Logical NOT (!)
+5. unary operator -> increament (++), decreament (--)
+
+logical AND (&&)
+
+A  B  AND(&&)
+
+T  T    T
+T  F    F
+F  T    F
+F  F    F 
+
+Logical OR (||) 
+
+A  B  OR(||)
+
+T  T   T 
+T  F   T 
+F  T   T 
+F  F   F  
+
+
+
 
 
