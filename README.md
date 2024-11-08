@@ -234,6 +234,129 @@ do {
 5. For-In Loop :- it iterate on objects
 
 
+String in Javascript :- 
+
+- Basically String is a sequence of character used to represent text. 
+- create a string -> let str = "web bocket".
+- we calculate the string length -> str.length property.
+- we calculate the string index -> str[0], str[1] ...etc
+
+String Literals :- 
+
+- its a way to have embedded expression in string.
+- its denoted by symbol ``.
+
+String Interpolation :- 
+
+- to create string by doing substitution of placeholder.
+- ex. -> string text ${expression} string text.
+
+Escape symbol in String :- 
+
+1. \n -> new line
+2. \t -> new tab
+
+String Method in Javascript :- 
+
+1. str.toUpperCase()
+2. str.toLowerCase()
+3. str.trim()
+4. str.slice(start,(end-1))
+5. str1.concat(str2)
+6. str.replace(oldVal, newVal) -> its checnge the 1st sequence
+7. str.replaceAll(oldVal, newVal) -> its change all the old value
+8. str.charAt(idx)
+
+Array in Javascript :- 
+
+- Array is a collection of items.
+- ex. let heros = ["iron man", "bat man", "spyder man"]
+- array index starts from "0".
+- arr[0], arr[1] ....etc
+
+looping over an Array :- 
+
+- loop -> iteration
+- syntax -> 
+for (let i = 0; i < arr.length; i++){
+    statement
+}
+
+practice question :- 
+
+1. for a given array with marks of students -> [89,76,45,90,38,93]. find the average marks of the entire class. 
+2. for a given array with price of 5 items -> [768,987,456,765,345]. all items have an offer of 10% off of them. change the array to store final price after applying offer. 
+
+Array methods on javascript :- 
+
+1. push - add an element to the end
+2. pop - remove from the end
+3. toString - convert array to string
+4. concat - join multiple array and return one result
+5. unshift - add an element to the start
+6. shift - remove an element to the first
+7. slice() - return a piece of the array
+8. splice() - change original array (add, remove, replace)
+
+Function in Javascript :- 
+
+- it is a block of code that perform a specific task, can be invoked(called) whenever we need. 
+- ex. (in-build function)
+
+1. console.log("hello world") -> in that code log() is a function
+2. "abc".toUpperCase() -> in this code toUpperCase() is a function
+3. [1,2,3].push(4) -> in this code push() is a function. 
+
+- there are two types of function in javascript.
+1. Normal Function :- 
+
+-> Type A function
+// function creation
+function functionName(){
+    // do some task
+}
+
+// function calling
+functionName()
+
+-> Type B function
+// function creation
+function functionName(parameter){
+    // do some task
+}
+
+// function calling
+functionName(arguments)
+
+
+2. Arrow Function :- 
+
+- Its a compact way of writing a function.
+- it uses map function to retrive the backend data, filter function for filterise our data... 
+
+// function creation
+const functionName = (parameter..) => {
+    // do some task
+}
+
+// function calling
+fuctionName()
+
+Normal function ->  
+function sum(a,b){
+    return a + b;
+}
+sum(2,3);
+
+Arrow Function -> 
+const sum = (a,b) => {
+    return a + b;
+}
+sum(2,3);
+
+practice task :- 
+
+1. create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in that string. (TCS Interview Question)
 
 
 
