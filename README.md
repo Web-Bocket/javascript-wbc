@@ -376,6 +376,28 @@ practice task :-
 2. create a function that filter out negative numbers.
 3. check if a string is a palindrome or not.
 
+Map Method :- 
+
+- create a new array with the result of some operation. The value its callback returns are used to form a new array. Normally we create a new array by calling the function in every array element. 
+- map does not change the original array.
+- it does not execute the function for empty array/element.
+- syntax -> arr.map(callbackFnx (value,index,array))
+
+ex. 
+let newArr = arr.map((val) => {
+    return val*2;
+})
+
+
+Filter Method :- 
+
+- create a new array of element that gives true for a condition/filter.
+- ex. all even element
+
+let newArr = arr.filter((val) => {
+    return val % 2 === 0;
+})
+
 
 
 

@@ -42,6 +42,13 @@
 //     console.log(val)
 // })
 
+// for a given array of numbers, print the square of each value using forEach loop. 
+
+// let arr = [1,2,3,4,5,6,7]
+// arr.forEach((nums) => {
+//     console.log(nums * nums)
+// })
+
 
 // 1. create a function that reverse an array. 
 
@@ -67,6 +74,40 @@
 // ex. bob , bob 
 // hint :- for loop & function 
 
+// let nums = [6,8,3,2]
+
+
+// map method  ->
+
+// let newArr = nums.map((val) => {
+//     return val*val;
+// })
+
+// console.log(nums)
+// console.log(newArr)
+
+// Filter method -> 
+
+// let arr = [1,2,3,4,7,8,9]
+
+// let evenArr = arr.filter((val) => {
+//     return val % 2 === 0;
+// })
+// console.log(evenArr)
+
+// 1 % 2 = 1 !== 0 -> odd 
+// 2 % 2 = 0 === 0 -> even 
+// 3 % 2 = 1 !== 0 -> odd 
+// 4 % 2 = 0 === 0 -> even 
+
+// we are given array of marks of students. filter out of the marks of 
+// students that scored more than 90
+
+marks = [78,89,90,53,95,28,96]
+let topper = marks.filter((val) => {
+    return val >= 90;
+})
+console.log(topper)
 
 
 
